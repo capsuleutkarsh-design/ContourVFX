@@ -1,6 +1,6 @@
 # Contour VFX
 
-A node-based Windows app that runs AI models on your plates (roto, mattes, geometry passes, 2D and 3D tracking) and hands the results to Nuke, Natron and Blender. Everything runs on your own PC.
+A node-based Windows app that runs AI models on your plates (roto, mattes, keying, 2D and 3D tracking) and hands the results to Nuke, Natron and Blender. New in 2.3.0-beta: the **Geometry Passes** node (normals, depth and position passes), the **Point Tracker** node (AI 2D tracks) and the **Export** node, which writes the plate, passes and tracks plus a ready-made Nuke script. Everything runs on your own PC.
 
 ## Download
 
@@ -10,21 +10,29 @@ Website and guide: https://capsuleutkarsh-design.github.io/contour-vfx/
 
 ## Screenshots
 
-**The main window: node graph, viewer and properties**
+**The main window: a Super Matte roto graph, with the viewer, node list and settings**
 
-![The main window: node graph, viewer and properties](screenshots/contour_main.png)
+![The main window: a Super Matte roto graph, with the viewer, node list and settings](screenshots/main_window.png)
 
-**A node graph from plate to export**
+**Press Tab in the node graph to search and add any of the nine nodes**
 
-![A node graph from plate to export](screenshots/contour_graph.png)
+![Press Tab in the node graph to search and add any of the nine nodes](screenshots/node_graph_tab_menu.png)
 
-**The AI models window**
+**The Export node: choose where, what (plate, passes, tracks), for which app and in which format**
 
-![The AI models window](screenshots/contour_models.png)
+![The Export node: choose where, what (plate, passes, tracks), for which app and in which format](screenshots/export_panel.png)
 
-**Settings**
+**Geometry Passes: normals in the viewer, with depth and position passes alongside**
 
-![Settings](screenshots/contour_settings.png)
+![Geometry Passes: normals in the viewer, with depth and position passes alongside](screenshots/geometry_passes_normals.png)
+
+**Point Tracker: AI tracks with their trails, ready for a Tracker4 in Nuke**
+
+![Point Tracker: AI tracks with their trails, ready for a Tracker4 in Nuke](screenshots/point_tracker_tracks.png)
+
+**The AI models window on first start: pick what to download, or install from an offline pack**
+
+![The AI models window on first start: pick what to download, or install from an offline pack](screenshots/model_manager.png)
 
 ## Licence
 
