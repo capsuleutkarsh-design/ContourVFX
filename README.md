@@ -8,6 +8,24 @@ Get the latest setup from **[Releases](https://github.com/capsuleutkarsh-design/
 
 Website and guide: https://capsuleutkarsh-design.github.io/contour-vfx/
 
+## Screenshots
+
+**The main window: node graph, viewer and properties**
+
+![The main window: node graph, viewer and properties](screenshots/contour_main.png)
+
+**A node graph from plate to export**
+
+![A node graph from plate to export](screenshots/contour_graph.png)
+
+**The AI models window**
+
+![The AI models window](screenshots/contour_models.png)
+
+**Settings**
+
+![Settings](screenshots/contour_settings.png)
+
 ## Licence
 
 Contour VFX is free to use, made by Utkarsh Tripathi. It is not for sale. Please do not re-upload the setup or remove the author's name. The full licence is shown in the installer.
